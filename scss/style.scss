@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  min-height: 30px;
+
+  :target {
+    border-color: red;
+  }
+}
+
+span {
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
